@@ -15,6 +15,14 @@
             "category": "Alimentação",
             "price": 90,
             "createdAt": "2025-01-02T13:30:28.723Z"
+        },
+        {
+            "id": 3,
+            "description": "Iracing",
+            "type": "outcome",
+            "category": "Simulador",
+            "price": 390,
+            "createdAt": "2025-01-02T13:30:28.723Z"
         }
     ]
 }
