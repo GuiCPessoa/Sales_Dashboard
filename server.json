@@ -31,6 +31,14 @@
       "type": "income",
       "createdAt": "2025-01-03T18:28:53.507Z",
       "id": 4
+    },
+    {
+      "description": "Smartphone",
+      "price": 1800,
+      "category": "Compra",
+      "type": "outcome",
+      "createdAt": "2025-01-03T18:44:48.095Z",
+      "id": 5
     }
   ]
 }
