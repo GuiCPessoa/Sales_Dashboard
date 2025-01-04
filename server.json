@@ -2,43 +2,19 @@
   "transactions": [
     {
       "id": 1,
-      "description": "Desenvolvimento de site",
+      "description": "Descrição",
       "type": "income",
-      "category": "Venda",
-      "price": 14000,
+      "category": "Categoria",
+      "price": 0,
       "createdAt": "2025-01-02T13:10:28.723Z"
     },
     {
-      "id": 2,
-      "description": "Hamburguer",
-      "type": "outcome",
-      "category": "Alimentação",
-      "price": 90,
-      "createdAt": "2025-01-02T13:30:28.723Z"
-    },
-    {
-      "id": 3,
-      "description": "Iracing",
-      "type": "outcome",
-      "category": "Simulador",
-      "price": 390,
-      "createdAt": "2025-01-02T13:30:28.723Z"
-    },
-    {
-      "description": "Desenvolvimento de APP",
-      "price": 15000,
-      "category": "Venda",
-      "type": "income",
-      "createdAt": "2025-01-03T18:28:53.507Z",
-      "id": 4
-    },
-    {
-      "description": "Smartphone",
-      "price": 1800,
+      "description": "Iphone 15",
+      "price": 7000,
       "category": "Compra",
       "type": "outcome",
-      "createdAt": "2025-01-03T18:44:48.095Z",
-      "id": 5
+      "createdAt": "2025-01-04T17:53:01.696Z",
+      "id": 2
     }
   ]
 }
