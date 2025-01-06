@@ -6,11 +6,6 @@ export const TransactionsContainer = styled.main`
     margin: 4rem auto 0;
     padding: 0 1.5rem;
     color: ${props => props.theme['black']};
-
-    
-    
-    
-
 `;
 
 export const TransactionsTable = styled.table`
@@ -37,6 +32,18 @@ export const TransactionsTable = styled.table`
     }
     }
 
+    button {
+        border: none;
+        background: transparent;
+        cursor: pointer;
+        color: ${props => props.theme['black-100']};
+
+        &:hover{
+            transition: 0.2s;
+            color: ${props => props.theme['red-100']}
+        }
+    }
+
 `;
 
 interface PriceHighLightProps {
@@ -47,3 +54,4 @@ interface PriceHighLightProps {
 export const PriceHighLight = styled.span<PriceHighLightProps>`
     color: ${props => props.variant === 'income' ? props.theme['blue-100'] : props.theme['red-100'] }
 `;
+

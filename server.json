@@ -1,20 +1,36 @@
 {
   "transactions": [
     {
-      "id": 1,
-      "description": "Descrição",
-      "type": "income",
-      "category": "Categoria",
-      "price": 0,
-      "createdAt": "2025-01-02T13:10:28.723Z"
+      "description": "Hamburguer",
+      "price": 57,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2025-01-06T15:12:00.379Z",
+      "id": 1
     },
     {
-      "description": "Iphone 15",
-      "price": 7000,
+      "description": "Identidade Visual",
+      "price": 1500,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2025-01-06T15:12:43.980Z",
+      "id": 2
+    },
+    {
+      "description": "Smartphone",
+      "price": 1500,
       "category": "Compra",
       "type": "outcome",
-      "createdAt": "2025-01-04T17:53:01.696Z",
-      "id": 2
+      "createdAt": "2025-01-06T15:15:56.387Z",
+      "id": 3
+    },
+    {
+      "description": "Desenvolvimento de APP",
+      "price": 2000,
+      "category": "Trabalho",
+      "type": "income",
+      "createdAt": "2025-01-06T15:16:28.544Z",
+      "id": 4
     }
   ]
 }
