@@ -1,50 +1,25 @@
-# React + TypeScript + Vite
+# Sales Dashboard
+The project has both Front-end and Back-End, using JSON:Server. The Sales Dashboard allows you to record your expenses and outgoings, giving you greater control over your money.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## :rocket: Technologies Used 
+<div align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=react,typescript,figma,js,html,css" />
+  </a>
+</div>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 🕹️ Figma
+All project prototyping was done in Figma and duly documented. The files were separated into Layout (web) and Colors. Access the link below to access Figma.
+https://www.figma.com/design/mpvCJCHd8TxgbsZGCW9RRn/Dashboard-analytics?node-id=0-1&t=sqq3wpGS8cDCSx6H-1
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 📷 Project Preview
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/80725c9c-acfa-437d-a074-6b8d83cdd7a5" alt="Project Preview" height="200"/>
+  <img src="https://github.com/user-attachments/assets/5c8eda59-ccd3-40b7-8fbe-e570a96f2aab" alt="Project Preview" height="200"/>
+</p>
+ 
+## 📚 Learning
+I continue to learn more and more about React and its technologies. I really enjoyed doing this project because I worked with other technologies, and I started to gradually get into the backend of an application, understanding and making HTTP requests, such as POST, GET, and others. The project is not finished yet, I want to add some more features to it!
